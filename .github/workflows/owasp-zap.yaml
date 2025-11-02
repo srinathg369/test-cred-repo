@@ -1,6 +1,10 @@
 name: owasp zap integration with github action
 on: [push]
 
+permissions:
+  contents: read
+  issues: write  # ✅ Required for creating issues
+
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
