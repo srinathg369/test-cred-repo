@@ -5,8 +5,10 @@ on:
 
 jobs: 
   run-shell-command:
-  runs-on: ubuntu-latest
-  steps:
-    - name: run the commands
-      run: echo " this is our first simple actions workflow"
+    runs-on: ubuntu-latest
+    steps:
+        - name: run the commands
+          run: echo " this is our first simple actions workflow"
+
+
         
